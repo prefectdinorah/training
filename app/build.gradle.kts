@@ -51,13 +51,15 @@ dependencies {
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
+    implementation(libs.androidx.compose.material.icons.core)
+    implementation(libs.androidx.compose.material.icons.extended)
     implementation(libs.androidx.compose.material3)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     // Test
-    testImplementation(libs.junit)
-    testImplementation(libs.mockk)
+    testImplementation(libs.test.junit)
+    testImplementation(libs.test.mockk)
 
     // Network
     implementation(libs.retrofit.core)
@@ -71,4 +73,8 @@ dependencies {
     // DI
     implementation(libs.dagger.core)
     ksp(libs.dagger.compiler)
+
+    // Navigation
+    implementation(libs.compose.navigation.runtime)
+    implementation(libs.compose.navigation.ui)
 }

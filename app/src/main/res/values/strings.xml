@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Training</string>
+    <string name="navigation_item_dashboard">Dashboard</string>
+    <string name="navigation_item_workout">Workout</string>
+    <string name="navigation_item_profile">Profile</string>
+    <string name="navigation_item_settings">Settings</string>
 </resources>
