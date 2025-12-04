@@ -28,8 +28,8 @@ fun BottomNavItem(
     selected: Boolean,
     onClick: () -> Unit,
 ) {
-    val background = if (selected) Color(0xFFCDFF00) else Color.Transparent
-    val tint = if (selected) Color(0xFF000000) else Color(0xFF666666)
+    val background = if (selected) Color(0xFFEBFF57) else Color.Transparent
+    val tint = if (selected) Color(0xFF000000) else Color(0xFF888888)
 
     Box(
         modifier = Modifier

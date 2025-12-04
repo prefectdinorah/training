@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_watch_tutorial">Смотреть урок</string>
+    <string name="core_exercises_remaining">Осталось %d упражнений</string>
+</resources>
