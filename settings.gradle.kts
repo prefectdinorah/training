@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Training"
 include(":app")
- 
+include(":core:fitness-component")
