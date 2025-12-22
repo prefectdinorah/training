@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -28,7 +29,7 @@ fun BottomNavItem(
     selected: Boolean,
     onClick: () -> Unit,
 ) {
-    val background = if (selected) Color(0xFFEBFF57) else Color.Transparent
+    val background = if (selected) MaterialTheme.colorScheme.primary else Color.Transparent
     val tint = if (selected) Color(0xFF000000) else Color(0xFF888888)
 
     Box(
