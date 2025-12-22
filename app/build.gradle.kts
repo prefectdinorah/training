@@ -79,4 +79,7 @@ dependencies {
     // Navigation
     implementation(libs.compose.navigation.runtime)
     implementation(libs.compose.navigation.ui)
+
+    // Immutable collections
+    implementation(libs.kotlin.immutable.collections)
 }
