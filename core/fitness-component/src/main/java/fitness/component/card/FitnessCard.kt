@@ -53,7 +53,7 @@ fun FitnessCard(
     Card(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp),
+            .padding(horizontal = 16.dp, vertical = 16.dp),
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.primary
         ),
@@ -81,7 +81,8 @@ fun FitnessCard(
                             .size(size = 40.dp)
                             .rotate(degrees = -150f),
                         imageVector = Icons.Rounded.AutoAwesomeMotion,
-                        contentDescription = null
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.onSecondary
                     )
                 }
 
@@ -93,7 +94,8 @@ fun FitnessCard(
                         modifier = Modifier.padding(bottom = 4.dp),
                         text = title,
                         fontSize = 20.sp,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSecondary
                     )
 
                     Text(
