@@ -18,6 +18,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -27,11 +28,12 @@ import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import fitness.component.R
 import fitness.component.infografics.donut.DonutChart
+import fitness.component.utils.PreviewPhone
+import fitness.theme.PreviewAppTheme
 
 /**
  * Карточка тренировки с прогрессом
@@ -53,7 +55,7 @@ fun FitnessCard(
             .fillMaxWidth()
             .padding(horizontal = 16.dp),
         colors = CardDefaults.cardColors(
-            containerColor = Color(0xFFEBFF57)
+            containerColor = MaterialTheme.colorScheme.primary
         ),
         shape = RoundedCornerShape(size = 16.dp)
     ) {
@@ -130,13 +132,15 @@ fun FitnessCard(
     }
 }
 
-@Preview
+@PreviewPhone
 @Composable
 private fun FitnessCardPreview() {
-    FitnessCard(
-        countTutorial = 12,
-        progress = 0.5f,
-        title = "Силовая тренировка",
-        onClick = {  }
-    )
+    PreviewAppTheme {
+        FitnessCard(
+            countTutorial = 12,
+            progress = 0.5f,
+            title = "Силовая тренировка",
+            onClick = {  }
+        )
+    }
 }

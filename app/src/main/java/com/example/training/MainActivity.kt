@@ -8,11 +8,11 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.ui.NavDisplay
 import com.example.training.components.BottomNavigationBar
@@ -21,7 +21,7 @@ import com.example.training.navigation.NavigationItem.ProfileItem
 import com.example.training.navigation.NavigationItem.SettingsItem
 import com.example.training.navigation.NavigationItem.WorkoutItem
 import com.example.training.router.rememberMainRouter
-import com.example.training.ui.theme.TrainingTheme
+import fitness.theme.TrainingTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 
                 Scaffold(
                     bottomBar = { BottomNavigationBar(router = router) },
-                    modifier = Modifier.fillMaxSize().background(color = Color.Gray)
+                    modifier = Modifier.fillMaxSize().background(color = MaterialTheme.colorScheme.background)
                 ) { paddingValues ->
                     val modifier = Modifier
                         .fillMaxSize()
