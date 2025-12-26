@@ -82,4 +82,8 @@ dependencies {
 
     // Immutable collections
     implementation(libs.kotlin.immutable.collections)
+
+    // Coil
+    implementation(libs.compose.coil)
+    implementation(libs.compose.coil.network)
 }
