@@ -29,7 +29,7 @@ private val LightColorScheme = lightColorScheme(
     secondary = Color(0xFFFFFFFF), // Card background
     onPrimary = Color(0xFF2A2A2D), // Card text
     onSecondary = Color(0xFF2A2A2D),
-    background = Color(0xFFFAFAFA), // Light gray background
+    background = Color(0xFFF3F3F4), // Light gray background
     surface = Color(0xFFFFFFFF), // Light frame
     surfaceVariant = Color(0xFF212121) // Dark frame
 )
