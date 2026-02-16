@@ -46,7 +46,7 @@ internal fun CategoryItem(
         Text(
             text = categoryName,
             fontSize = 10.sp,
-            color = MaterialTheme.colorScheme.onPrimary
+            color = MaterialTheme.colorScheme.onBackground
         )
     }
 }

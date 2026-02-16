@@ -82,7 +82,7 @@ fun FitnessCard(
                             .rotate(degrees = -150f),
                         imageVector = Icons.Rounded.AutoAwesomeMotion,
                         contentDescription = null,
-                        tint = MaterialTheme.colorScheme.onSecondary
+                        tint = MaterialTheme.colorScheme.onPrimary
                     )
                 }
 
@@ -95,12 +95,12 @@ fun FitnessCard(
                         text = title,
                         fontSize = 20.sp,
                         fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.onSecondary
+                        color = MaterialTheme.colorScheme.onPrimary
                     )
 
                     Text(
                         text = stringResource(id = R.string.core_exercises_remaining, countTutorial),
-                        color = Color(0xFFBDBDBD),
+                        color = MaterialTheme.colorScheme.onPrimary.copy(alpha = 0.7f),
                         fontSize = 14.sp
                     )
                 }

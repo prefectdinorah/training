@@ -54,9 +54,9 @@ fun DayItem(
     }
 
     val textColor = if (isSelected) {
-        MaterialTheme.colorScheme.onSecondary
-    } else {
         MaterialTheme.colorScheme.onPrimary
+    } else {
+        MaterialTheme.colorScheme.onSurface
     }
 
     Box(
