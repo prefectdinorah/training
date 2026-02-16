@@ -3,8 +3,25 @@
 /local.properties
 /.idea
 .DS_Store
+
+# Build files
 /build
+**/build/
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+# Kotlin
+*.kt.swp
+.kotlin/
+
+# Android Studio
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/

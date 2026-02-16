@@ -37,7 +37,7 @@ fun ActionText(
             text = title,
             fontSize = 20.sp,
             fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.onPrimary
+            color = MaterialTheme.colorScheme.onBackground
         )
 
         Text(

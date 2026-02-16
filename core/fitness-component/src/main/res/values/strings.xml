@@ -3,4 +3,9 @@
     <string name="core_watch_tutorial">Смотреть урок</string>
     <string name="core_exercises_remaining">Осталось %d упражнений</string>
     <string name="core_see_all">Посмотреть все</string>
+
+    <!-- Статусы карточек -->
+    <string name="core_status_new">Новое</string>
+    <string name="core_status_in_progress">В процессе</string>
+    <string name="core_status_completed">Завершено</string>
 </resources>

@@ -17,10 +17,12 @@ import androidx.compose.ui.platform.LocalContext
 private val DarkColorScheme = darkColorScheme(
     primary = Color(0xFFEBFF57), // Lime yellow accent
     secondary = Color(0xFF1C1C1E), // Card background
-    onPrimary = Color(0xFFFFFFFF), // Card text
-    onSecondary = Color(0xFF2A2A2D),
+    onPrimary = Color(0xFF000000), // Text on primary (dark on bright)
+    onSecondary = Color(0xFFFFFFFF), // Text on secondary (light on dark)
     background = Color(0xFF0A0A0A), // Very dark background
+    onBackground = Color(0xFFFFFFFF), // Text on background (light on dark)
     surface = Color(0xFF3A3A3C), // Light frame
+    onSurface = Color(0xFFFFFFFF), // Text on surface
     surfaceVariant = Color(0xFFEBFF57), // Dark frame
 )
 
@@ -30,7 +32,9 @@ private val LightColorScheme = lightColorScheme(
     onPrimary = Color(0xFF2A2A2D), // Card text
     onSecondary = Color(0xFF2A2A2D),
     background = Color(0xFFF3F3F4), // Light gray background
+    onBackground = Color(0xFF2A2A2D), // Text on background (dark on light)
     surface = Color(0xFFFFFFFF), // Light frame
+    onSurface = Color(0xFF2A2A2D), // Text on surface
     surfaceVariant = Color(0xFF212121) // Dark frame
 )
 
