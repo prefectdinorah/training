@@ -13,6 +13,7 @@ import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation3.runtime.NavKey
 import com.example.training.R
+import fitness.component.bottom_nav.BottomNavigationItem
 import kotlinx.serialization.Serializable
 
 @Serializable

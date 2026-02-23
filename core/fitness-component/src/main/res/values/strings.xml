@@ -8,4 +8,10 @@
     <string name="core_status_new">Новое</string>
     <string name="core_status_in_progress">В процессе</string>
     <string name="core_status_completed">Завершено</string>
+
+    <!-- Bottom navigation preview -->
+    <string name="core_nav_home">Главная</string>
+    <string name="core_nav_workout">Тренировки</string>
+    <string name="core_nav_profile">Профиль</string>
+    <string name="core_nav_settings">Настройки</string>
 </resources>
