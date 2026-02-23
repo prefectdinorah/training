@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("core/convention")
     repositories {
         google {
             content {
@@ -22,3 +23,4 @@ dependencyResolutionManagement {
 rootProject.name = "Training"
 include(":app")
 include(":core:fitness-component")
+include(":support:navigation")

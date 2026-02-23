@@ -1,4 +1,4 @@
-package com.example.training.navigation
+package fitness.component.bottom_nav
 
 import androidx.compose.ui.graphics.vector.ImageVector
 
