@@ -24,3 +24,7 @@ rootProject.name = "Training"
 include(":app")
 include(":core:fitness-component")
 include(":support:navigation")
+include(":core:mvi")
+include(":core:di")
+include(":feature:workout-creation:api")
+include(":feature:workout-creation:impl")

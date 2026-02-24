@@ -8,5 +8,6 @@ android {
 
 dependencies {
     implementation(project(":core:fitness-component"))
-    implementation(libs.compose.navigation.runtime)
+    api(libs.compose.navigation.runtime)
+    implementation(libs.androidx.lifecycle.runtime.compose)
 }

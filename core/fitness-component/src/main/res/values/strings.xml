@@ -14,4 +14,9 @@
     <string name="core_nav_workout">Тренировки</string>
     <string name="core_nav_profile">Профиль</string>
     <string name="core_nav_settings">Настройки</string>
+
+    <!-- Password strength indicator -->
+    <string name="core_password_strength_low">Слабый пароль</string>
+    <string name="core_password_strength_medium">Средний пароль</string>
+    <string name="core_password_strength_high">Надёжный пароль ✓</string>
 </resources>
