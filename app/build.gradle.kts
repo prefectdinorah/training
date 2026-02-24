@@ -14,6 +14,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:di"))
     implementation(project(":core:fitness-component"))
     implementation(project(":support:navigation"))
+    implementation(project(":feature:workout-creation:impl"))
 }

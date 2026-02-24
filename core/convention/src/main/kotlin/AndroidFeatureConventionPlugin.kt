@@ -8,10 +8,9 @@ import org.gradle.kotlin.dsl.dependencies
  *
  * Применяет:
  * - training.android.library.compose (Compose + базовая настройка)
- * - com.google.devtools.ksp
  *
  * Добавляет:
- * - Dagger (DI)
+ * - Koin (DI)
  * - Navigation3 (навигация)
  * - Lifecycle Runtime KTX
  *

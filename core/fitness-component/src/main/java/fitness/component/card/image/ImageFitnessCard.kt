@@ -38,7 +38,7 @@ import fitness.component.R
 import fitness.component.infografics.donut.DonutChart
 import fitness.component.utils.PreviewPhone
 import fitness.theme.PreviewAppTheme
-import fitness.theme.Colors
+import fitness.theme.PulseFitColors
 
 /**
  * Карточка тренировки с изображением на фоне
@@ -208,9 +208,9 @@ enum class FitnessCardStatus(
     @StringRes val titleRes: Int,
     val color: Color
 ) {
-    NEW(R.string.core_status_new, Colors.Green),
-    IN_PROGRESS(R.string.core_status_in_progress, Colors.Orange),
-    COMPLETED(R.string.core_status_completed, Colors.Blue),
+    NEW(R.string.core_status_new, PulseFitColors.Green),
+    IN_PROGRESS(R.string.core_status_in_progress, PulseFitColors.Orange),
+    COMPLETED(R.string.core_status_completed, PulseFitColors.Blue),
 }
 
 @PreviewPhone

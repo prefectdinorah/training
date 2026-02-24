@@ -15,7 +15,7 @@ import org.gradle.kotlin.dsl.dependencies
  *
  * Добавляет:
  * - Compose (BOM, UI, Material3, Icons, Activity, Immutable Collections)
- * - Dagger (DI)
+ * - Koin (DI)
  * - Navigation3
  * - Retrofit + OkHttp (сеть)
  * - Room (локальная БД)
