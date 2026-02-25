@@ -15,7 +15,10 @@ android {
 
 dependencies {
     implementation(project(":core:di"))
+    implementation(project(":core:network"))
     implementation(project(":core:fitness-component"))
     implementation(project(":support:navigation"))
     implementation(project(":feature:workout-creation:impl"))
+    implementation(project(":feature:auth:impl"))
+    implementation(project(":feature:main:impl"))
 }

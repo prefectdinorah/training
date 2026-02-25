@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared -->
+    <string name="auth_cd_back">Назад</string>
+    <string name="auth_field_hint_email">Email</string>
+    <string name="auth_field_hint_password">Пароль</string>
+    <string name="auth_field_hint_name">Имя</string>
+    <string name="auth_action_login">Войти</string>
+    <string name="auth_social_google">Google</string>
+    <string name="auth_social_apple">Apple</string>
+
+    <!-- Welcome -->
+    <string name="auth_welcome_logo_pulse">PULSE</string>
+    <string name="auth_welcome_logo_fit">FIT</string>
+    <string name="auth_welcome_tagline">Тренируйся умнее.\nОтслеживай прогресс.\nДостигай целей.</string>
+    <string name="auth_welcome_btn_create_account">Создать аккаунт</string>
+    <string name="auth_welcome_btn_have_account">Уже есть аккаунт</string>
+
+    <!-- Login -->
+    <string name="auth_login_title">С возвращением</string>
+    <string name="auth_login_subtitle">Войди, чтобы продолжить тренировки</string>
+    <string name="auth_login_forgot_password">Забыли пароль?</string>
+    <string name="auth_login_no_account_prefix">Нет аккаунта? </string>
+    <string name="auth_login_register_link">Зарегистрируйся</string>
+
+    <!-- Registration -->
+    <string name="auth_register_title">Создай аккаунт</string>
+    <string name="auth_register_subtitle">Начни свой путь к лучшей форме</string>
+    <string name="auth_register_btn_submit">Зарегистрироваться</string>
+    <string name="auth_register_terms_prefix">Регистрируясь, вы принимаете </string>
+    <string name="auth_register_terms_link">Условия использования</string>
+    <string name="auth_register_terms_conjunction"> и </string>
+    <string name="auth_register_privacy_link">Политику конфиденциальности</string>
+    <string name="auth_register_have_account_prefix">Уже есть аккаунт? </string>
+</resources>
